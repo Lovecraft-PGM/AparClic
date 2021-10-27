@@ -1,0 +1,61 @@
+/* css files add slyling rules to your content */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.header{
+    background-color:hsl(42, 94%, 51%) ;
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 2rem 0;
+}
+.header a{
+  color: black;
+  text-decoration: none;
+}
+ 
+.logo-nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation ul{
+  margin:0;
+  padding: 0;
+  list-style: none ; 
+}
+
+.navigation ul li{
+  display: inline-block;
+}
+.navigation ul li a{
+  display:block;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s linear;
+  border-radius: 5px; 
+} 
+.navigation ul li a:hover{
+  background: gainsboro;
+}
+fieldset{
+    
+    background-color:#ffd700;
+    color:black ;
+}
+legend{
+    color: rgb(0, 0, 0);
+}
+form{
+    background-color: rgb(124, 123, 121);
+    padding: 1rem;
+}
+ 
+footer{
+  display: block;
+  padding:10px 0;
+  background-color:hsl(42, 94%, 51%);
+  text-align: center;
+  position: relative;
+  top:20px; 
+}   
